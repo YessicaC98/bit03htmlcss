@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 1024px;
+    height: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 8px double black;
+    border-radius: 30px;
+    text-align: center;
+}
+
+header,
+nav,
+main,
+aside,
+footer {
+    border: 2px dotted black;
+}
+
+.header {
+    height: 100px;
+    font-family: cursive;
+    font-size: xx-large;
+    background-color: #FEE1F4;
+    border-radius: 30px;
+    color: black;
+    text-shadow: rgb(245, 189, 240) 2px 0px 0px, rgb(245, 189, 240) 1.75517px 0.958851px 0px, rgb(245, 189, 240) 1.0806px 1.68294px 0px, rgb(245, 189, 240) 0.141474px 1.99499px 0px, rgb(245, 189, 240) -0.832294px 1.81859px 0px, rgb(245, 189, 240) -1.60229px 1.19694px 0px, rgb(245, 189, 240) -1.97998px 0.28224px 0px, rgb(245, 189, 240) -1.87291px -0.701566px 0px, rgb(245, 189, 240) -1.30729px -1.5136px 0px, rgb(245, 189, 240) -0.421592px -1.95506px 0px, rgb(245, 189, 240) 0.567324px -1.91785px 0px, rgb(245, 189, 240) 1.41734px -1.41108px 0px, rgb(245, 189, 240) 1.92034px -0.558831px 0px;
+}
+
+.nav {
+    height: 330px;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    padding: 5px;
+    border-radius: 30px;
+    background-color: #FFccff;
+}
+
+main,
+aside {
+    height: 450px;
+    float:left;
+    background-color: pink;
+    border-radius: 30px;
+    padding-top: 5px;
+}
+
+main {
+    width: 500px;
+    font-family: cursive;
+    font-weight: 340px;
+    color: fuchsia;
+}
+
+aside {
+    width: 507px;
+    font-family: fantasy;
+    font-weight: 340px;
+    color: black;
+}
+
+footer {
+    height: 130px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    color: blueviolet;
+    background-color: rgb(245, 189, 240);
+    border-radius: 30px;
+    padding-top: 20px;
+    clear: both;
+}
